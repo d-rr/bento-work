@@ -11,7 +11,7 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Dominic',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
@@ -31,9 +31,9 @@ const CONFIG = {
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
-  trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+  defaultLatitude: '52.531408',
+  defaultLongitude: '13.362205',
 
   // Autochange
   autoChangeTheme: true,
